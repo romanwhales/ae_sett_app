@@ -1,0 +1,11 @@
+div.dashboard_card a{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.reports{
+    text-decoration: none;
+    cursor: pointer;
+}
+

@@ -1,0 +1,10 @@
+version: '3'
+services: 
+  settlement_ui: 
+    restart: always
+    build: .
+    ports:
+      - "3005:3005"
+    volumes:
+      - /usr/src/settlement_app/node_modules
+      - .:/usr/src/settlement_app
